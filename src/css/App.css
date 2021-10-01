@@ -1,0 +1,46 @@
+
+@import-normalize;
+
+@import 'buttons.css';
+@import 'recipe-list.css';
+@import 'ingredient-list.css';
+@import 'recipe.css';
+@import 'recipe-edit.css';
+
+*, *::before, *::after {
+  font-family: Gotham Rounded, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 25px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  src:  url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  src:  url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  src:  url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}
